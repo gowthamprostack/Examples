@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Urtrr.Lisnerclass"/>
+  </listeners>
+  <test thread-count="5" name="test2(failed)">
+    <classes>
+      <class name="examplesselenium.Test_001">
+        <methods>
+          <include name="testabsdc"/>
+          <include name="dd"/>
+          <include name="test"/>
+          <include name="end"/>
+        </methods>
+      </class> <!-- examplesselenium.Test_001 -->
+    </classes>
+  </test> <!-- test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

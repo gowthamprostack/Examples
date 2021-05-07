@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+
+<listener class-name="Urtrr.Lisnerclass"></listener>
+
+</listeners>
+    <test thread-count="10" name="test2" parallel="false">
+    <classes>
+      <class name="examplesselenium.Test_001"/>
+     </classes>
+     </test> 
+     
+</suite> <!-- Suite -->
